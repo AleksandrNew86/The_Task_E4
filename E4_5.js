@@ -62,15 +62,3 @@ class TableLamp extends Apparatus {
 }
 
 
-const newComp = new Computer('HomeWork', 500, 'Athlon', 3 );
-const newLamp = new TableLamp('XiaomiLight', 25, 150, 'diod' );
-
-newComp.turnOn();
-newComp.checkApp(2);
-newLamp.checkPowerLamp(26);
-newComp.powerSocket();
-newLamp.powerSocket();
-
-let newsocket = new Apparatus('socket', 2000)
-
-console.log(Object.getPrototypeOf(TableLamp))
